@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font & Font-Awsome CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  
+  <!-- Bootsrap Successfully Installed! -->
+  <link rel="stylesheet" href="style.css/bootstrap.css">
+
+  <!-- Java script Font-Awsome -->
+  <script src="https://kit.fontawesome.com/a33530bb41.js" crossorigin="anonymous"></script>
+  <script src="console.js/bootstrap.bundle.js" async></script>
+
+<!-- Google Font-Awsome CDN-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Name of site and icon pix attached -->
+  <title>Christabel's Delicacies</title>
+  <link rel="icon" href="media/jpg.dc.jpg">
+  
+</head>
+<body class="bg-dark">
+
+
+<!-- Navbar Bootstrap! -->
+<div class="m-1"></div>
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm sticky-top">
+  <div class="container-fluid">
+    <i class="fa fa-utensils text-warning p-2"></i>
+    <a href="#" class="navbar-brand">Christabel's <span class="text-success">Delicious</span> <span class="text-warning">Restaurant</span></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#restaurant-navbar" aria-controls="restaurant-navbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="restaurant-navbar">
+
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item px-3">
+          <a href="#" class="nav-link text-white">Home</a>
+        </li>
+        <li class="nav-item px-3">
+          <a href="#specials" class="nav-link text-white">Specials</a>
+        </li>
+        <li class="nav-item px-3">
+          <a href="#chefs" class="nav-link text-white">Chefs</a>
+        </li>
+        <li class="nav-item px-3">
+          <a href="#menus" class="nav-link text-white">Menue</a>
+        </li>
+        <li class="nav-item px-3">
+          <a href="#contact" class="nav-link text-white">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Slider Bootstrap! -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="media/rost.jpj.jpg" class="d-block w-100" alt="img">
+    </div>
+    <div class="carousel-item">
+      <img src="media/meal.jpg" class="d-block w-100" alt="img">
+    </div>
+    <div class="carousel-item">
+      <img src="media/round.jpg" class="d-block w-100" alt="img">
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Specials Bootstrap! -->
+
+<div class="specials p-5 bg-light" id="specials">
+  <div class="container text-center">
+   <div class="grid ">
+     <div class="row m-5">
+      <div class="col-md-4">
+        <i class="icon fa fa-hand-holding-water fa-4x text-success"></i>
+        <p class="h2 fw-bold text-success my-2">Hand Picked Items</p>
+        <p class="lead fst-italic text-dark">In celebration of Earth Day, Christabel's <span class="text-dark">Restaurant</span> Health's Food and Nutrition Team brings you a delicious whole food, plant-based, gluten-free meal.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="icon fa fa-wine-glass fa-4x text-danger"></i>
+        <p class="h2 fw-bold text-danger my-2">Quality Wine</p>
+        <p class="lead fst-italic text-dark">Our quality taste of wine can easily transport you back to your favourite place. <br> A Taste full of Secrets rich and tender with family. <br>Good Wine for Good Moments.</p>
+      </div>
+       <div class="col-md-4">
+        <i class="icon fa fa-hand-point-up fa-4x text-warning"></i>
+        <p class="h2 fw-bold text-warning my-2">Delicious Food</p>
+        <p class="lead fst-italic text-dark"> Our food provides the energy that your body need to keep going. <br> We're fresher! We're tastier! <br> Directly from mother earth. <br> From farm to plate. <br> Eat natural - eat organic.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+ </div>
+
+ <!-- Menus Section Bootstrap! -->
+  <div class="menu-1 bg dark p-5" id="menus">
+    <div class="container">
+      <div class="grid">
+        <div class="row text-white align-items-center mt-5">
+          <div class="col-md-6">
+            <p class="h2">Avocado<span class="text-warning"> MixUp</span></p>
+            <p class="lead fst-italic">If you've ever had the pleasure of eating an avocado, you know it's different from other fruits. <br>Unlike most other fruits, it's rich in healthy fats and is often used to produce avocado oil. Though not as well known as olive oil, this oil is just as delicious.</p>
+            </div>
+            <div class="col-md-6">
+              <video controls class="img-fluid">
+                <source src="media/Avocado.mp4.mp4">
+              </video>
+           </div>
+         </div>
+       </div>
+     </div>
+  </div>
+  <div class="menu-2 bg text-white p-3">
+    <div class="container bg-dark">
+      <div class="grid">
+        <div class="row text-dark align-items-center">
+          <div class="col-md-6">
+            <video controls class="img-fluid">
+              <source src="media/Soupmaking.mp4.mp4">
+            </video>
+          </div>
+          <div class="col-md-6 p-5">
+            <p class="h2 text-white">Delicious<span class="text-warning"> Soup Making</span></p>
+            <p class="lead fst-italic text-white">So guys here is my easy but delicious Egusi Soup. <br> This soup makes a filling meal when served with fresh Garri (Eba), pounded yam, Fufu, or any other solid food.</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-3 bg dark p-5">
+    <div class="container">
+      <div class="grid">
+        <div class="row text-white align-items-center">
+          <div class="col-md-6">
+            <p class="h2">Chicken<span class="text-warning"> Fricassee - Stew </span></p>
+            <p class="lead fst-italic">Chicken Fricassée is a traditional French chicken stew made with browned chicken pieces braised in a creamy white mushroom sauce. A rustic family-style meal that's easy enough for midweek, it's a bit like a white sauce version of Coq au Vin - except it's so much faster to make!</p>
+            </div>
+            <div class="col-md-6">
+              <video controls class="img-fluid">
+                <source src="media/Chickenstew.mp4.mp4">
+              </video>
+           </div>
+         </div>
+       </div>
+     </div>
+  </div>
+
+
+  <!-- Chefs -->
+  <section class="chefs p-5 bg-white" id="chefs">
+    <div class="container">
+      <div class="grid">
+        <div class="row mt-5">
+          <div class="col-md-3">
+            <div class="card shadow-lg my-2">
+              <img src="media/chefs-4.jpj.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <p class="h4">David Yte</p>
+                <p class="dance-font text-muted">Master Chef</p>
+                <p class="fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="d-flex justify-content-around">
+                  <i class="fab fa-facebook text-primary fa-2x"></i>
+                  <i class="fa fa-twitter text-info fa-2x"></i>
+                  <i class="fa fa-youtube text-danger fa-2x"></i>
+                  <i class="fa fa-instagram text-warning fa-2x"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card shadow-lg my-2">
+              <img src="media/chefs-3.jpj.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <p class="h4">Alfred Batholomew</p>
+                <p class="dance-font text-muted">Designed by Engr. David</p>
+                <p class="fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="d-flex justify-content-around">
+                  <i class="fab fa-facebook text-primary fa-2x"></i>
+                  <i class="fa fa-twitter text-info fa-2x"></i>
+                  <i class="fa fa-youtube text-danger fa-2x"></i>
+                  <i class="fa fa-instagram text-warning fa-2x"></i>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card shadow-lg my-2">
+            <img src="media/chefs-1.jpj.jpg" alt="" class="img-fluid">
+            <div class="card-body">
+              <p class="h4">Chucks Ofuani</p>
+              <p class="dance-font text-muted">Designed by Engr. David</p>
+              <p class="fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <div class="d-flex justify-content-around">
+                <i class="fab fa-facebook text-primary fa-2x"></i>
+                <i class="fa fa-twitter text-info fa-2x"></i>
+                <i class="fa fa-youtube text-danger fa-2x"></i>
+                <i class="fa fa-instagram text-warning fa-2x"></i>
+              </div>
+            </div>
+          </div>
+      </div>
+       <div class="col-md-3">
+            <div class="card shadow-lg my-2">
+              <img src="media/chefs-2.jpj.jpg" alt="" class="img-fluid">
+              <div class="card-body">
+                <p class="h4">Chima Ruth</p>
+                <p class="dance-font text-muted">Designed by Engr. David</p>
+                <p class="fst-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <div class="d-flex justify-content-around">
+                  <i class="fab fa-facebook text-primary fa-2x"></i>
+                  <i class="fa fa-twitter text-info fa-2x"></i>
+                  <i class="fa fa-youtube text-danger fa-2x"></i>
+                  <i class="fa fa-instagram text-warning fa-2x"></i>
+                </div>
+              </div>
+            </div>
+    </div>                                                               
+  </section>
+
+  <!-- Footer! -->
+
+  <footer class="footer bg-dark text-white p-5" id="contact">
+    <div class="container">
+      <div class="grid">
+        <div class="row align-items-center mt-5">
+          <div class="col-md-4">
+            <a class="footer-link" href="http://ca.linkedin.com/in/david-chigbo "><i class="fa-brands fa-linkedin text-primary fa-3x"></i>
+            </a>
+            <p>Copywrite©2022 David Chigbo</p>
+            <small class="dance-font">
+              Designed by <span class="text-warning ">"@David Chigbo"</span> as part of my portfolio regarding web development for prospective clients. <br>call +234-8039-5658-03 <br> <i class="fa-regular fa-envelope-open"></i> david.chigbo25@gmail.com 
+            </small>
+          </div>
+          <div class="col-md-4 offset-md-4">
+            <form action="mail_handler.php">
+              <div class="mb-2">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <form action="mail_handler.php">
+                <div class="mb-2">
+                  <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+                <form action="mail_handler.php">
+                  <div class="mb-2">
+                    <input type="number" class="form-control" placeholder="Your Mobile Number">
+                  </div>
+                  <form action="mail_handler.php">
+                    <div class="mb-2">
+                      <textarea name="messages" class="form-control" placeholder="Your Messages"></textarea>
+                    </div>
+                        <div class="mb-2">
+                          <input type="submit" class="btn btn-warning" value="submit">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+            </div>
+       </div>
+   </footer>
+</body>
+</html>
