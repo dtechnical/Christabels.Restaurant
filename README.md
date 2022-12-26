@@ -1,4 +1,4 @@
-# My first web project
+# Christabel's Restaurant
 
 # This is actually my first project
 
